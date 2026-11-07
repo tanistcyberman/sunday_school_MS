@@ -1,0 +1,1 @@
+{"version":3,"file":"UnauthorizedCourseAccessException.js","sourceRoot":"","sources":["../../../src/domain/exceptions/UnauthorizedCourseAccessException.ts"],"names":[],"mappings":";;;AAAA,uDAAoD;AAEpD,MAAa,iCAAkC,SAAQ,iCAAe;IACpE,YAAY,UAAkB,6EAA6E;QACzG,KAAK,CAAC,OAAO,CAAC,CAAC;QACf,IAAI,CAAC,IAAI,GAAG,mCAAmC,CAAC;IAClD,CAAC;CACF;AALD,8EAKC"}

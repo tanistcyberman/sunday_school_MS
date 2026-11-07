@@ -1,0 +1,177 @@
+{
+  "app": {
+    "title": "የቀጣይ ትምህርት ክትትል ክፍል",
+    "subtitle": "የትምህርት መረጃና የውጤት አስተዳደር ፖርታል",
+    "motto": "ትውልድን በዕውቀትና በሥነ-ምግባር ማነፅ"
+  },
+  "nav": {
+    "dashboard": "ዋና ገጽ",
+    "masterSchedule": "ዋና የትምህርት መርሃ-ግብር",
+    "studentImport": "የተማሪዎች መዝገብ ማስገቢያ (CSV)",
+    "gradeExport": "የውጤት ሪፖርትና ማውጫ",
+    "promotion": "የዓመቱ ተማሪዎች ማስተላለፊያ",
+    "gradebook": "የውጤት መመዝገቢያ ሰሌዳ",
+    "materialUpload": "የትምህርት ማቴሪያል መጫኛ",
+    "myMaterials": "የትምህርት ማቴሪያሎች",
+    "myReportCard": "የግል ውጤት መግለጫ",
+    "login": "ግባ",
+    "logout": "ውጣ",
+    "roleAdmin": "አስተዳዳሪ",
+    "roleTeacher": "መምህር",
+    "roleStudent": "ተማሪ",
+    "welcome": "እንኳን ደህና መጡ"
+  },
+  "auth": {
+    "loginTitle": "ወደ ፖርታሉ መግቢያ",
+    "username": "የተጠቃሚ ስም",
+    "password": "የይለፍ ቃል",
+    "submit": "ግባ",
+    "loggingIn": "በመግባት ላይ...",
+    "error": "የተጠቃሚ ስም ወይም የይለፍ ቃል የተሳሳተ ነው",
+    "testAccounts": "የመሞከሪያ መለያዎች:",
+    "adminDesc": "አስተዳዳሪ (Admin): admin / admin123",
+    "teacherDesc": "መምህር (Teacher): teacher / teacher123",
+    "studentDesc": "ተማሪ (Student): student / student123"
+  },
+  "admin": {
+    "schedule": {
+      "title": "ዋና የትምህርት መርሃ-ግብር (Master Schedule)",
+      "subtitle": "ከክፍል 4 እስከ 10 ላሉ ለእያንዳንዱ ክፍል 4 ኮርሶች የትምህርት መጀመሪያ፣ አጋማሽና የመጨረሻ ፈተና ቀናት ማዘጋጃ",
+      "gradeFilter": "ክፍል ምረጥ",
+      "course": "የትምህርት አይነት (ኮርስ)",
+      "academicYear": "የትምህርት ዘመን",
+      "semester": "መንፈቀ ትምህርት",
+      "startDate": "የትምህርት መጀመሪያ ቀን",
+      "midExamDate": "የአጋማሽ ፈተና ቀን",
+      "finalExamDate": "የመጨረሻ ፈተና ቀን",
+      "saveBtn": "መርሃ-ግብሩን መዝግብ",
+      "savedSuccess": "መርሃ-ግብሩ በተሳካ ሁኔታ ተመዝግቧል"
+    },
+    "import": {
+      "title": "የተማሪዎች መረጃ በጅምላ ማስገቢያ (CSV Bulk Import)",
+      "subtitle": "የተማሪዎችን ስም፣ ክፍል እና ዝርዝር መረጃ በCSV ፋይል በቀላሉ ይጫኑ",
+      "dragDrop": "የ CSV ፋይል እዚህ ይጎትቱ ወይም ፋይል ለመምረጥ ይጫኑ",
+      "supportsUtf8": "ማሳሰቢያ፡ አማርኛ ጽሑፎችን እንዳያዛባ ፋይሉ በ UTF-8 የተዘጋጀ መሆኑን ያረጋግጡ",
+      "downloadTemplate": "የመሞከሪያ CSV ፋይል አውርድ",
+      "previewTitle": "የተፈተሸ የውሂብ ቅድመ-እይታ (Validation Preview)",
+      "totalRows": "አጠቃላይ ረድፎች",
+      "validRows": "ትክክለኛ",
+      "invalidRows": "ስህተት ያለባቸው",
+      "colRow": "ተ/ቁ",
+      "colCode": "የተማሪ መለያ",
+      "colNameAm": "ሙሉ ስም (አማርኛ)",
+      "colNameEn": "Full Name (English)",
+      "colGrade": "ክፍል",
+      "colGender": "ጾታ",
+      "colSection": "ሴክሽን",
+      "colStatus": "የማረጋገጫ ሁኔታ",
+      "commitBtn": "ትክክለኛ የሆኑትን ወደ ስርዓቱ አስገባ",
+      "commitSuccess": "ተማሪዎች በተሳካ ሁኔታ ወደ ስርዓቱ ገብተዋል!"
+    },
+    "export": {
+      "title": "የተማሪዎች አጠቃላይ ውጤት ሪፖርት (Grade Export)",
+      "subtitle": "የሁሉንም ተማሪዎች ውጤት በዝርዝር ይመልከቱ፣ በ Excel ወይም PDF ያውርዱ",
+      "filterGrade": "በክፍል ለይቶ እይ",
+      "allGrades": "ሁሉም ክፍሎች",
+      "exportExcel": "በ Excel አውርድ (.xlsx)",
+      "exportPdf": "በ PDF አውርድ",
+      "exportCsv": "በ CSV አውርድ (UTF-8)",
+      "colStudent": "ተማሪ",
+      "colGrade": "ክፍል",
+      "colAverage": "አማካይ ውጤት",
+      "colDecision": "ውሳኔ",
+      "passed": "አልፏል",
+      "failed": "ወድቋል",
+      "pending": "በሂደት ላይ"
+    },
+    "promotion": {
+      "title": "የዓመቱ ተማሪዎች ማስተላለፊያ (End-of-Year Promotion)",
+      "subtitle": "የማለፊያ ውጤት (50% እና ከዚያ በላይ) ያመጡ ተማሪዎችን በራስ-ሰር ወደ ቀጣዩ ክፍል ያሳድጋል",
+      "triggerBtn": "የተማሪዎች ማስተላለፊያ አከናውን",
+      "modalTitle": "የተማሪዎች ማስተላለፊያ ማረጋገጫ",
+      "modalWarning": "ይህ እርምጃ የማለፊያ ውጤት ያገኙትን ተማሪዎች በሙሉ ወደ ቀጣዩ ክፍል (ለምሳሌ ከ 4ኛ ወደ 5ኛ) የሚያሳድግ ሲሆን የ 10ኛ ክፍል ተማሪዎችን ያመርቃል። እርግጠኛ ነዎት?",
+      "confirm": "አዎ፣ ማስተላለፊያውን ፈጽም",
+      "cancel": "ተመለስ",
+      "successTitle": "ተማሪዎች በተሳካ ሁኔታ ተላልፈዋል",
+      "promotedCount": "የተላለፉ ተማሪዎች",
+      "graduatedCount": "የተመረቁ ተማሪዎች (10ኛ ክፍል)",
+      "retainedCount": "የደገሙ ተማሪዎች"
+    }
+  },
+  "teacher": {
+    "materials": {
+      "title": "የትምህርት ማቴሪያሎች መጫኛ (Course Materials Upload)",
+      "subtitle": "ለእያንዳንዱ ኮርስ እስከ 10 ሜጋባይት (10MB) የሆኑ የትምህርት ሰነዶች (PDF, DOCX) ይጫኑ",
+      "selectGrade": "ክፍል ይምረጡ",
+      "selectCourse": "ኮርስ ይምረጡ",
+      "matTitleAm": "የማቴሪያሉ ርዕስ (አማርኛ)",
+      "matTitleEn": "Title (English)",
+      "description": "ማብራሪያ / ይዘት",
+      "fileLabel": "ሰነድ ይምረጡ (እስከ 10MB)",
+      "uploadBtn": "ማቴሪያል ጫን",
+      "uploading": "በመጫን ላይ...",
+      "uploadedList": "የተጫኑ ማቴሪያሎች ዝርዝር",
+      "colTitle": "ርዕስ",
+      "colCourse": "ኮርስ",
+      "colSize": "መጠን",
+      "colDate": "የተጫነበት ቀን",
+      "colActions": "እርምጃዎች",
+      "delete": "ሰርዝ"
+    },
+    "gradebook": {
+      "title": "ዲጂታል የውጤት መመዝገቢያ ሰሌዳ (Digital Gradebook)",
+      "subtitle": "የተማሪዎችን የአጋማሽ (ከ 40) እና የመጨረሻ (ከ 60) ፈተና ውጤት ያስገቡ፤ አጠቃላይ ድምር በራስ-ሰር ይሰላል",
+      "selectGrade": "ክፍል ይምረጡ",
+      "selectCourse": "ኮርስ ይምረጡ",
+      "colCode": "የተማሪ መለያ",
+      "colName": "የተማሪ ሙሉ ስም",
+      "colMid": "አጋማሽ ፈተና (40%)",
+      "colFinal": "የመጨረሻ ፈተና (60%)",
+      "colTotal": "አጠቃላይ ውጤት (100%)",
+      "colStatus": "ሁኔታ",
+      "saveAll": "ሁሉንም ውጤቶች መዝግብ",
+      "autoCalcNote": "* አጠቃላይ ውጤት (Total Score) እና የማለፍ ሁኔታ በራስ-ሰር ይሰላል"
+    }
+  },
+  "student": {
+    "dashboard": {
+      "title": "የተማሪ ዳሽቦርድ (Student Dashboard)",
+      "welcome": "ሰላም፣ {{name}}!",
+      "gradeLevel": "የምትማርበት ክፍል፡ {{grade}}ኛ ክፍል",
+      "totalCourses": "የኮርሶች ብዛት",
+      "totalMaterials": "የማቴሪያሎች ብዛት",
+      "averageScore": "አጠቃላይ አማካይ ውጤት",
+      "timelineTitle": "የትምህርት መርሃ-ግብር ሂደት (Academic Timeline)",
+      "termProgress": "የመንፈቀ-ትምህርቱ ሂደት",
+      "phasePreMid": "ከአጋማሽ ፈተና በፊት ያለው የትምህርት ክፍለ-ጊዜ",
+      "phaseMidToFinal": "ከአጋማሽ እስከ ማጠቃለያ ፈተና ያለው ክፍለ-ጊዜ",
+      "phaseCompleted": "የመንፈቀ-ትምህርቱ ፈተናዎች ተጠናቀዋል",
+      "startDate": "የትምህርት መጀመሪያ",
+      "midExam": "የአጋማሽ ፈተና",
+      "finalExam": "የመጨረሻ ፈተና"
+    },
+    "materials": {
+      "title": "የትምህርት ማቴሪያሎች ማዕከል (Materials Hub)",
+      "subtitle": "ለክፍልዎ የተዘጋጁትን የትምህርት ሰነዶችና መጽሐፍት በቀላሉ ያውርዱ",
+      "noMaterials": "ለዚህ ኮርስ የተጫነ ማቴሪያል እስካሁን የለም",
+      "download": "አውርድ"
+    },
+    "reportCard": {
+      "title": "የግል ውጤት መግለጫ ካርድ (Grade Report Card)",
+      "subtitle": "የአጋማሽ እና የመጨረሻ ፈተና ውጤቶችዎ ኦፊሴላዊ መግለጫ",
+      "academicYear": "የትምህርት ዘመን፡ {{year}}",
+      "colCourse": "የትምህርት አይነት",
+      "colMid": "አጋማሽ (40%)",
+      "colFinal": "ማጠቃለያ (60%)",
+      "colTotal": "ድምር (100%)",
+      "colPassStatus": "ሁኔታ",
+      "overallAvg": "አጠቃላይ አማካይ ውጤት",
+      "overallResult": "አጠቃላይ ውሳኔ"
+    }
+  },
+  "footer": {
+    "churchMinistry": "የቀጣይ ትምህርት ክትትል ክፍል",
+    "copyright": "መብቱ በህግ የተጠበቀ ነው። የትምህርትና ፈተና ክትትል ስርዓት።",
+    "motto": "ትውልድን በእውቀትና በሃይማኖት ማነፅ"
+  }
+}

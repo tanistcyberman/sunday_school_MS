@@ -1,0 +1,177 @@
+{
+  "app": {
+    "title": "Continuous Education Monitoring Dept",
+    "subtitle": "Academic Portal & Grade Management",
+    "motto": "Nurturing Future Generations in Knowledge and Virtue"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "masterSchedule": "Master Schedule",
+    "studentImport": "Student CSV Import",
+    "gradeExport": "Grade Reports & Export",
+    "promotion": "Student Promotion",
+    "gradebook": "Digital Gradebook",
+    "materialUpload": "Upload Materials",
+    "myMaterials": "Course Materials",
+    "myReportCard": "My Report Card",
+    "login": "Login",
+    "logout": "Logout",
+    "roleAdmin": "Admin",
+    "roleTeacher": "Teacher",
+    "roleStudent": "Student",
+    "welcome": "Welcome"
+  },
+  "auth": {
+    "loginTitle": "Sign In to Academic Portal",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Sign In",
+    "loggingIn": "Signing in...",
+    "error": "Invalid username or password",
+    "testAccounts": "Quick Test Accounts:",
+    "adminDesc": "Admin: admin / admin123",
+    "teacherDesc": "Teacher: teacher / teacher123",
+    "studentDesc": "Student: student / student123"
+  },
+  "admin": {
+    "schedule": {
+      "title": "Master Schedule Configuration",
+      "subtitle": "Define Start, Mid, and Final Exam dates for 4 courses per grade level",
+      "gradeFilter": "Select Grade",
+      "course": "Course",
+      "academicYear": "Academic Year",
+      "semester": "Semester",
+      "startDate": "Course Start Date",
+      "midExamDate": "Mid Exam Date",
+      "finalExamDate": "Final Exam Date",
+      "saveBtn": "Save Schedule",
+      "savedSuccess": "Master schedule saved successfully"
+    },
+    "import": {
+      "title": "Bulk Student Import (CSV)",
+      "subtitle": "Upload student records with validation preview table",
+      "dragDrop": "Drag & drop CSV file here, or click to browse",
+      "supportsUtf8": "Note: Make sure your CSV is UTF-8 encoded to preserve Amharic characters",
+      "downloadTemplate": "Download Sample CSV Template",
+      "previewTitle": "Validation Preview Table",
+      "totalRows": "Total Rows",
+      "validRows": "Valid Rows",
+      "invalidRows": "Invalid Rows",
+      "colRow": "#",
+      "colCode": "Student Code",
+      "colNameAm": "Name (Amharic)",
+      "colNameEn": "Name (English)",
+      "colGrade": "Grade",
+      "colGender": "Gender",
+      "colSection": "Section",
+      "colStatus": "Validation Status",
+      "commitBtn": "Import Valid Students to System",
+      "commitSuccess": "Students imported successfully!"
+    },
+    "export": {
+      "title": "Consolidated Student Grade Report",
+      "subtitle": "Review consolidated grades with instant Excel and PDF export actions",
+      "filterGrade": "Filter by Grade",
+      "allGrades": "All Grades",
+      "exportExcel": "Export to Excel (.xlsx)",
+      "exportPdf": "Export to PDF",
+      "exportCsv": "Export to CSV (UTF-8)",
+      "colStudent": "Student",
+      "colGrade": "Grade",
+      "colAverage": "Average",
+      "colDecision": "Decision",
+      "passed": "PASSED",
+      "failed": "FAILED",
+      "pending": "PENDING"
+    },
+    "promotion": {
+      "title": "End-of-Year Student Promotion",
+      "subtitle": "Automatically advance passing students (score >= 50%) to the next grade tier",
+      "triggerBtn": "Execute Bulk Promotion",
+      "modalTitle": "Confirm Bulk Promotion",
+      "modalWarning": "This will advance all students meeting pass marks to the next grade tier and mark Grade 10 students as Graduated. Are you sure you want to proceed?",
+      "confirm": "Yes, Execute Promotion",
+      "cancel": "Cancel",
+      "successTitle": "Promotion Executed Successfully",
+      "promotedCount": "Students Promoted",
+      "graduatedCount": "Students Graduated (Grade 10)",
+      "retainedCount": "Students Retained"
+    }
+  },
+  "teacher": {
+    "materials": {
+      "title": "Course Materials Upload",
+      "subtitle": "Upload lecture materials and syllabus (PDF, DOCX up to 10MB per course)",
+      "selectGrade": "Select Grade",
+      "selectCourse": "Select Course",
+      "matTitleAm": "Material Title (Amharic)",
+      "matTitleEn": "Material Title (English)",
+      "description": "Description / Topic",
+      "fileLabel": "Choose File (up to 10MB)",
+      "uploadBtn": "Upload Material",
+      "uploading": "Uploading...",
+      "uploadedList": "Uploaded Materials",
+      "colTitle": "Title",
+      "colCourse": "Course",
+      "colSize": "Size",
+      "colDate": "Date",
+      "colActions": "Actions",
+      "delete": "Delete"
+    },
+    "gradebook": {
+      "title": "Digital Gradebook",
+      "subtitle": "Input Mid (40%) and Final (60%) exam marks; Total score and pass status calculate automatically",
+      "selectGrade": "Select Grade",
+      "selectCourse": "Select Course",
+      "colCode": "Student Code",
+      "colName": "Student Name",
+      "colMid": "Mid Exam (40%)",
+      "colFinal": "Final Exam (60%)",
+      "colTotal": "Total Score (100%)",
+      "colStatus": "Status",
+      "saveAll": "Save Gradebook Entries",
+      "autoCalcNote": "* Total Score and Pass/Fail status are dynamically calculated"
+    }
+  },
+  "student": {
+    "dashboard": {
+      "title": "Student Academic Dashboard",
+      "welcome": "Welcome, {{name}}!",
+      "gradeLevel": "Current Grade: Grade {{grade}}",
+      "totalCourses": "Enrolled Courses",
+      "totalMaterials": "Available Materials",
+      "averageScore": "Overall Average",
+      "timelineTitle": "Academic Timeline Progress",
+      "termProgress": "Current Term Progress",
+      "phasePreMid": "First Half: Lectures & Midterm Prep",
+      "phaseMidToFinal": "Second Half: Advanced Topics & Final Prep",
+      "phaseCompleted": "Academic Term Exams Concluded",
+      "startDate": "Term Start",
+      "midExam": "Mid Exam",
+      "finalExam": "Final Exam"
+    },
+    "materials": {
+      "title": "Course Materials Hub",
+      "subtitle": "Download lecture notes and study guides organized by course",
+      "noMaterials": "No materials uploaded for this course yet",
+      "download": "Download"
+    },
+    "reportCard": {
+      "title": "Official Grade Report Card",
+      "subtitle": "Official read-only summary of your examination marks",
+      "academicYear": "Academic Year: {{year}}",
+      "colCourse": "Course",
+      "colMid": "Mid (40%)",
+      "colFinal": "Final (60%)",
+      "colTotal": "Total (100%)",
+      "colPassStatus": "Status",
+      "overallAvg": "Overall Average",
+      "overallResult": "Final Result"
+    }
+  },
+  "footer": {
+    "churchMinistry": "Continuous Education Monitoring Department",
+    "copyright": "All Rights Reserved. Academic and Examination Monitoring System.",
+    "motto": "Empowering youth in faith, virtue, and academic excellence"
+  }
+}
